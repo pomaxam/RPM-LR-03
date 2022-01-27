@@ -3,7 +3,7 @@ def input_valid():
 
 def x2():
     x = x / 2
-    list.append()
+    sp.append()
     return collatz()
 
 def x3_1():
