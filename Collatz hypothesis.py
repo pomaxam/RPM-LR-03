@@ -1,3 +1,4 @@
+sp = []
 def input_valid():
     while True:
         x = int(input("Введите переменную x = "))
@@ -16,4 +17,11 @@ def x3_1():
     pass #Максим
 
 def collatz():
-    pass #Рома
+    while x != 1:
+        if x % 2 == 0:
+            return x2(x)
+        else:
+            return x3_1(x)
+    print('Список имеет вид:', sp)
+
+input_valid()
