@@ -8,17 +8,17 @@ def input_valid():
         print("Неверное число, попробуйте другое")
     return x
 
-def x2():
+def x2(x):
     x = x / 2
-    sp.append()
-    return collatz()
+    sp.append(int(x))
+    return collatz(x)
 
-def x3_1():
+def x3_1(x):
     x = int(x * 3 + 1)
     sp.append(x)
     collatz(x)
 
-def collatz():
+def collatz(x):
     while x != 1:
         if x % 2 == 0:
             return x2(x)
