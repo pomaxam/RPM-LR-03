@@ -9,7 +9,9 @@ def input_valid():
     return x
 
 def x2():
-    pass #Кирилл
+    x = x / 2
+    sp.append()
+    return collatz()
 
 def x3_1():
     x = int(x * 3 + 1)
