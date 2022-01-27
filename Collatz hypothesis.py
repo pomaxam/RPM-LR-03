@@ -5,7 +5,9 @@ def x2():
     pass #Кирилл
 
 def x3_1():
-    pass #Максим
+    x = int(x * 3 + 1)
+    sp.append(x)
+    collatz(x)
 
 def collatz():
     pass #Рома
