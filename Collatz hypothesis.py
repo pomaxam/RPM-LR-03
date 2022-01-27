@@ -2,7 +2,9 @@ def input_valid():
     pass #Рома
 
 def x2():
-    pass #Кирилл
+    x = x / 2
+    list.append()
+    return collatz()
 
 def x3_1():
     pass #Максим
