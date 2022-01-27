@@ -9,9 +9,7 @@ def input_valid():
     return x
 
 def x2():
-    x = x / 2
-    list.append()
-    return collatz()
+    pass #Кирилл
 
 def x3_1():
     pass #Максим
